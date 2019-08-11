@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{% extends "base.html" %}
+{% load staticfiles %}
+{% block body_block %}
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="container">
+	<div class="jumbotron">
+		<h1 class="display-4"><center><strong>V6 Submersible Pumpset</strong></center></h1>
+		</div>
+		<img src="{% static "images/V6.png" %}" width="80%">
+<br>
+<p class="lead"><strong>UNIKFLO PUMPS </strong>with over 21 years of experience in manufacturing to sales & servicing, we strive to provide our customer highly efficient durable and best quality V6 submersible pumpset with water filled motors. Available on both outer diameter of 142mm.</p>
+<button type="button" id="Spec" class="btn btn-outline-info">Specification</button>
+<button type="button" id="feat" class="btn btn-outline-info">Salient Features</button>
+<button type="button" id="App" class="btn btn-outline-info">Application</button>
+<button type="button" id="Download" class="btn btn-outline-info">Downloads</button>
+<ul id="detail">
+
+</ul>
+
+</div>
+<script type="text/javascript" src="{% static "scripts/V6.js" %}"></script>
+</div>
+
+{% endblock %}
