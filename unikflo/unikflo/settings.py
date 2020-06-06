@@ -128,3 +128,7 @@ MEDIA_URL='/media/'
 
 
 LOGIN_URL='/Dealer/login'
+
+# Configure Django App for Heroku.
+import django_heroku
+django_heroku.settings(locals())
